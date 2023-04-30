@@ -12,3 +12,11 @@ The `peek` method returns the first element of the queue without removing it, by
 The `isEmpty` method returns true if the queue contains no elements by calling the `isEmpty` method on the linked list.
 
 Finally, the `size` method returns the number of elements in the queue by calling the `size` method on the linked list.
+# MyLinkedListStack
+The given code implements a stack data structure using a linked list. The MyLinkedListStack class is a generic class, which means it can be used to create a stack of any type of element. The class has methods push(), pop(), peek(), isEmpty() and size() which operate on the stack.
+
+The push() method adds a new element to the top of the stack using the addFirst() method of the linked list. The pop() method removes and returns the top element of the stack using the removeFirst() method of the linked list. The peek() method returns the top element of the stack without removing it using the getFirst() method of the linked list.
+
+The isEmpty() method checks whether the stack is empty or not, and returns true or false accordingly using the isEmpty() method of the linked list. The size() method returns the number of elements in the stack using the size() method of the linked list.
+
+Finally, the class also includes an EmptyStackException that is thrown if the stack is empty and a method attempts to access or remove an element from it.

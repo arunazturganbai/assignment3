@@ -7,13 +7,13 @@ public class MyLinkedListQueue<T> {
         queue = new MyLinkedList();
     }
 
-    //Inserts the specified element at the end of this queue.
+    //Inserts the specified element at the end of this queue
 
     public void enqueue(T item) {
         queue.addLast(item);
     }
 
-    //Retrieves and removes the head of this queue.
+    //Retrieves and removes the head of this queue
 
     public T dequeue() {
         if (isEmpty()) {
@@ -22,7 +22,7 @@ public class MyLinkedListQueue<T> {
         return queue.removeFirst();
     }
 
-    //Retrieves, but does not remove, the head of this queue.
+    //Retrieves, but does not remove, the head of this queue
 
     public T peek() {
         if (isEmpty()) {
@@ -31,13 +31,13 @@ public class MyLinkedListQueue<T> {
         return queue.getFirst();
     }
 
-    //Returns true if this queue contains no elements.
+    //Returns true if this queue contains no elements
 
     public boolean isEmpty() {
         return queue.isEmpty();
     }
 
-    //Returns the number of elements in this queue.
+    //Returns the number of elements in this queue
     public int size() {
         return queue.size();
     }

@@ -20,3 +20,21 @@ The push() method adds a new element to the top of the stack using the addFirst(
 The isEmpty() method checks whether the stack is empty or not, and returns true or false accordingly using the isEmpty() method of the linked list. The size() method returns the number of elements in the stack using the size() method of the linked list.
 
 Finally, the class also includes an EmptyStackException that is thrown if the stack is empty and a method attempts to access or remove an element from it.
+# MyArrayList
+This code defines a generic class `MyArrayList` which implements the basic operations of an ArrayList data structure. The type parameter `E` represents the type of elements that the list can hold.
+
+The `add` method adds the specified element to the end of the list. The `remove` method removes and returns the element at the specified index from the list. The `get` method returns the element at the specified index in the list.
+
+The `isEmpty` method returns true if the list is empty, false otherwise. The `size` method returns the number of elements in the list.
+# MyArrayListQueue
+This code defines a generic class `MyArrayListQueue` that implements a queue using an ArrayList. It has methods to add an item to the back of the queue, remove and return the item at the front of the queue, return the item at the front of the queue without removing it, check if the queue is empty, and get the size of the queue.
+
+The `enqueue` method adds the specified item to the back of the queue using the `add` method of the underlying `MyArrayList` object.
+
+The `dequeue` method removes and returns the item at the front of the queue using the `remove` method of the underlying `MyArrayList` object.
+
+The `peek` method returns the item at the front of the queue without removing it using the `get` method of the underlying `MyArrayList` object.
+
+The `isEmpty` method returns true if the queue is empty or false otherwise, using the `isEmpty` method of the underlying `MyArrayList` object.
+
+The `size` method returns the number of items in the queue using the `size` method of the underlying `MyArrayList` object.

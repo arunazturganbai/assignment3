@@ -1,11 +1,10 @@
 import java.util.EmptyStackException;
 
 public class MyLinkedListStack<E> {
-
-    private MyLinkedList<E> list;
+    private MyLinkedList list;
 
     public MyLinkedListStack() {
-        list = new MyLinkedList<>();
+        list = new MyLinkedList();
     }
 
     public void push(E element) {

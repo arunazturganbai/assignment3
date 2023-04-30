@@ -1,12 +1,12 @@
-public class MyLinkedList<E> {
-    public void addFirst(E element) {
+public class MyLinkedList {
+    public <E> void addFirst(E element) {
     }
 
-    public E removeFirst() {
+    public <E> E removeFirst() {
         return null;
     }
 
-    public E getFirst() {
+    public <E> E getFirst(){
         return null;
     }
 

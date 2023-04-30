@@ -17,4 +17,7 @@ public class MyLinkedList {
     public int size() {
         return 0;
     }
+
+    public <T> void addLast(T item) {
+    }
 }

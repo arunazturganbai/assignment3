@@ -1,1 +1,2 @@
-# assignment3
+# MyLinkedList
+This code defines a simple singly linked list data structure called MyLinkedList. It provides methods to add an element at the beginning (addFirst), remove and return the first element (removeFirst), get the first element without removing it (getFirst), add an element at the end (addLast), check if the list is empty (isEmpty), and get the size of the list (size). The methods are parameterized with generic types to allow for flexibility in the data type of the elements stored in the linked list. However, the methods are not implemented with any logic, and simply return default values of null or false for the provided methods.
